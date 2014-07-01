@@ -1,0 +1,142 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+div.container{
+	width: 950px;
+	height: 500px;
+	margin: 0 auto;
+}
+div.choice{
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 1px;
+	background-color: rgb(240, 240, 240);
+}
+div.choice p{
+	text-align: center;
+	/*margin-top: 20px;*/
+	margin-top: 25px;
+}
+span.horaizental{
+	background:gray;
+	display: block;
+	width: 350px;
+	height: 2px;
+	margin: 0 auto;
+}
+div.choice ul {
+	margin-top: 30px;
+}
+div.choice ul li{
+	float: left;
+	margin-left: 2px;
+	list-style-type: none;
+}
+div.choice ul li:first-child{
+	margin-left: 0px;
+}
+div.choice ul li a{
+	display: block;
+	padding: 10px;
+	padding-bottom: 80px;
+	text-decoration: none;
+	color: #857D7D;
+}
+div.choice ul li a:hover{
+color:#227281;
+}
+a.square{
+	background: url('../images/1.png') no-repeat bottom center;
+	padding-bottom: 80px;
+}
+a.tshirt{
+	background: url('../images/2.png') no-repeat bottom center;
+	padding-bottom: 80px;
+}
+a.circle2{
+	background: url('../images/3.png') no-repeat bottom center;
+	padding-bottom: 80px;
+}
+#upload-wrapper {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	/*background: #F5F5F5;*/
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px #AAA;
+}
+#upload-wrapper h3 {
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 20px 0px;
+	margin-top: -30px;
+	border-bottom: 1px dotted #DDD;
+}
+#upload-wrapper input[type=file] {
+	border: 1px solid #DDD;
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+}
+#upload-wrapper #submit-btn {
+	border: none;
+	padding: 10px;
+	background: #61BAE4;
+	border-radius: 5px;
+	color: #FFF;
+}
+#output{
+	padding: 5px;
+	font-size: 12px;
+}
+#output img {
+/*	border: 1px solid #DDD;
+	padding: 5px;*/
+}
+.ui-widget-content{
+	display: block;
+}
+
+#resizable{
+	width: 100px;
+	height: 100px;
+}
+div.fixx{
+	height: 300px;
+}
+div.wifix{
+	height: 300px;
+	width: 600px;
+}	
+div.dadycool{
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
+	/*outline: 1px dashed red;*/
+	margin-top: 50px;
+	position: relative;
+	z-index: 100;
+}
+div.fixx{
+height:400px;
+width: 500px;
+background: url('../images/door (1).gif');
+left: -100px;
+right: 0;
+top: -50px;
+position: absolute;
+z-index: -1;
+}
+div.fixx img{
+	cursor: move;
+}
+div.fixx div{
+	overflow: none !important;
+}
